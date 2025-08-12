@@ -1,4 +1,5 @@
 🚀 Futuristic Portfolio Website
+
 A modern, responsive portfolio website built with Flask and featuring a stunning futuristic design. This portfolio showcases your projects, skills, and provides a seamless way for potential clients or employers to contact you.
 ✨ Features
 
@@ -217,4 +218,5 @@ Modern Web Design inspiration from various portfolio sites
 
 
 Built with ❤️ and lots of ☕
+
 Make it yours and showcase your amazing work to the world! 🚀
