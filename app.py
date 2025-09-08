@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, flash, redirect, url_for
 import smtplib
+# ...existing code...
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 # ...existing code...
@@ -10,21 +11,17 @@ app.secret_key = 'your-secret-key-here'
 
 # Portfolio data
 portfolio_data = {
-    'name': 'Aderine Perez ',
+    'name': 'Aderine',
     'title': 'Good Coder and Problem Solver',
     'location': 'Coimbatore, Tamil Nadu',
     'bio': 'Passionate full-stack developer specializing in Python, web technologies, and creative problem-solving. I love building innovative solutions that make a difference.',
     'skills': [
         {'name': 'Python', 'level': 90, 'category': 'Backend'},
         {'name': 'Flask', 'level': 85, 'category': 'Backend'},
-        {'name': 'SQL', 'level': 88, 'category': 'Core'},
         {'name': 'HTML/CSS', 'level': 88, 'category': 'Frontend'},
         {'name': 'JavaScript', 'level': 80, 'category': 'Frontend'},
         {'name': 'Git/GitHub', 'level': 85, 'category': 'Tools'},
         {'name': 'Problem Solving', 'level': 92, 'category': 'Core'},
-        {'name': 'Communication', 'level': 90, 'category': 'Core'},
-        {'name': 'Teamwork', 'level': 88, 'category': 'Core'},
-        
     ],
     'projects': [
         {
@@ -56,7 +53,7 @@ portfolio_data = {
         'github': 'https://github.com/Aderine2006',
         'linkedin': 'https://www.linkedin.com/in/aderine-perez',
         'leetcode': 'https://leetcode.com/u/Aderine_2487',
-        'email': 'perezaderine@gmail.com'
+        'email': 'your.email@example.com'  # Update with your actual email
     }
 }
 
