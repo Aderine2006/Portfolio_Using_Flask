@@ -11,7 +11,7 @@ app.secret_key = 'your-secret-key-here'
 
 # Portfolio data
 portfolio_data = {
-    'name': 'Aderine',
+    'name': 'Aderine Perez Victor Joans',
     'title': 'Good Coder and Problem Solver',
     'location': 'Coimbatore, Tamil Nadu',
     'bio': 'Passionate full-stack developer specializing in Python, web technologies, and creative problem-solving. I love building innovative solutions that make a difference.',
